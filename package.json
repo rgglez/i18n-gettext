@@ -1,0 +1,41 @@
+{
+  "name": "@rgglez/i18n-gettext",
+  "version": "0.1.0",
+  "description": "Framework-agnostic gettext translations: translator, observable store, and sprintf.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test src",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [
+    "i18n",
+    "gettext",
+    "translation",
+    "store"
+  ],
+  "author": "Rodolfo González González",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgglez/i18n-gettext.git"
+  },
+  "dependencies": {
+    "@postalsys/gettext": "^4.1.1",
+    "sprintf-js": "^1.1.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/sprintf-js": "^1.1.4",
+    "typescript": "^5.9.3"
+  }
+}
