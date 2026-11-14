@@ -1,6 +1,6 @@
 {
   "name": "@rgglez/i18n-gettext",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Framework-agnostic gettext translations: translator, observable store, and sprintf.",
   "type": "module",
   "exports": {
